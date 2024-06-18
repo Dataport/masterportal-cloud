@@ -1,0 +1,3 @@
+[submodule "masterportal"]
+	path = masterportal
+	url = https://bitbucket.org/geowerkstatt-hamburg/masterportal
