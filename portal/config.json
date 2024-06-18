@@ -1,0 +1,98 @@
+{
+	"portalConfig": {
+		"map": {
+			"controls": {
+				"zoom": true,
+				"orientation": {
+					"zoomMode": "once"
+				}
+			},
+			"mapView": {
+				"backgroundImage": "./resources/img/backgroundCanvas.jpeg",
+				"startCenter": [
+					561210,
+					5932600
+				],
+				"extent": [
+					510000.0,
+					5850000.0,
+					625000.4,
+					6000000.0
+				],
+				"startZoomLevel": 1
+			}
+		},
+		"portalFooter": {
+			"urls": [
+				{
+					"bezeichnung": "common:modules.portalFooter.designation",
+					"url": "https://www.dataport.de/",
+					"alias": "Dataport AöR",
+					"alias_mobil": "Dataport"
+				}
+			]
+		},
+		"tree": {
+			"addLayerButton": {
+				"active": false
+			},
+			"highlightedFeatures": {
+				"active": true
+			}
+		},
+		"mainMenu": {
+			"expanded": true,
+			"title": {
+				"text": "Cloud",
+				"logo": "./resources/img/mp_logo.png",
+				"link": "https://masterportal.org",
+				"toolTip": "Masterportal"
+			},
+			"sections": [
+				[
+					{
+						"type": "fileImport"
+					},
+					{
+						"type": "openConfig"
+					},
+					{
+						"type": "language"
+					}
+				]
+			]
+		},
+		"secondaryMenu": {
+			"expanded": false,
+			"sections": [
+				[
+					{
+						"type": "legend"
+					},
+					{
+						"type": "scaleSwitcher"
+					},
+					{
+						"type": "shareView"
+					},
+					{
+						"type": "measure"
+					}
+				]
+			]
+		}
+	},
+	"layerConfig": {
+		"baselayer": {
+			"elements": [
+				{
+					"id": "basemap_color",
+					"visibility": true
+				}
+			]
+		},
+		"subjectlayer": {
+			"elements": []
+		}
+	}
+}

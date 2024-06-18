@@ -1,0 +1,7 @@
+services:
+  masterportal:
+    build: .
+    volumes:
+      - ./portal:/srv/www/portal:ro
+    ports:
+      - 8080:80
